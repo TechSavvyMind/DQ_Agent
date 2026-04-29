@@ -1,0 +1,31 @@
+rules: 
+  - applicable_files: "*.csv"
+    rules: 
+      - rule_id: 1 
+        check: file_not_empty
+        description: "csv file should not be empty"
+
+      - rule_id: 2 
+        check: required_columns
+        columns: ["name", "emp_id", "role", "company"]
+        description: "csv file should contain required columns"
+
+      - rule_id: 3
+        check: correct_empid_dtype 
+        columns: 
+          emp_id: integer
+        description: "emp_id column should contain only integers"
+
+      - rule_id: 4 
+        check: no_duplicates 
+        columns: 
+          - emp_id
+        description: "csv file should not contain duplicate emp_id values"
+
+      # rule_id: 5 
+      # check: null_values
+      # columns: ["name", "emp_id", "role", "company"]
+      # description: "csv file should not contain null values in required columns"
+
+email_alert: 
+  email: "for.jobpurpose2714@gmail.com"

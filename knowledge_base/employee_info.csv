@@ -1,0 +1,7 @@
+name,emp_id,role,company,log_in,log_out,native_place
+Stalin,239293,Solution Architect,ABC Pvt ltd,10:00am,6:00pm,TamilNadu
+Akhila,282202,Developer,ABC Pvt ltd,9:00am,5:30pm,Telangana
+Hari,292291,Developer,ABC Pvt ltd,10:00am,6:00pm,TamilNadu
+,298210,Backend Engineer,ABC Pvt ltd,10:00am,6:00pm,AndhraPradesh
+Harshini,229220,Full stack developer,ABC Pvt ltd,10:00am,6:00pm,Telangana
+Arun,298291,Devops Engineer,ABC Pvt ltd,10:00am,6:00pm,puducherry
