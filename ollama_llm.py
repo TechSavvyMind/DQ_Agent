@@ -13,7 +13,7 @@ from langchain_nvidia_ai_endpoints import ChatNVIDIA  # type: ignore[import]
 
 client = ChatNVIDIA(
   model="deepseek-ai/deepseek-v4-flash",
-  api_key="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",
+  api_key=os.getenv("NVIDIA_API_KEY"),
   temperature=1,
   top_p=0.95,
   max_tokens=16384,
